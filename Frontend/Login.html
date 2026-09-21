@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Login</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <main class="auth-page">
+
+    <section class="auth-card">
+
+      <div class="logo">
+        LoRA Cloud
+      </div>
+
+      <h1>Welcome back</h1>
+
+      <p class="subtitle">
+        Login to your account.
+      </p>
+
+
+      <form id="loginForm">
+
+        <label for="loginEmail">
+          Email address
+        </label>
+
+        <input
+          id="loginEmail"
+          type="email"
+          placeholder="you@example.com"
+          autocomplete="email"
+          required
+        >
+
+
+        <label for="loginPassword">
+          Password
+        </label>
+
+        <input
+          id="loginPassword"
+          type="password"
+          placeholder="Your password"
+          autocomplete="current-password"
+          required
+        >
+
+
+        <button
+          id="loginButton"
+          type="submit"
+        >
+          Login
+        </button>
+
+      </form>
+
+
+      <div
+        id="message"
+        class="message"
+      ></div>
+
+
+      <p class="switch">
+
+        Don't have an account?
+
+        <a href="signup.html">
+          Create account
+        </a>
+
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <script src="auth.js"></script>
+
+</body>
+
+</html>
