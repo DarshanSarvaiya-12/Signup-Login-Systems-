@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Create Account</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <main class="auth-page">
+
+    <section class="auth-card">
+
+      <div class="logo">
+        LoRA Cloud
+      </div>
+
+      <h1>Create your account</h1>
+
+      <p class="subtitle">
+        Start your 1-hour free LoRA test.
+      </p>
+
+
+      <form id="signupForm">
+
+        <label for="name">
+          Full name
+        </label>
+
+        <input
+          id="name"
+          type="text"
+          placeholder="Your name"
+          autocomplete="name"
+          required
+        >
+
+
+        <label for="email">
+          Email address
+        </label>
+
+        <input
+          id="email"
+          type="email"
+          placeholder="you@example.com"
+          autocomplete="email"
+          required
+        >
+
+
+        <label for="password">
+          Password
+        </label>
+
+        <input
+          id="password"
+          type="password"
+          placeholder="At least 8 characters"
+          autocomplete="new-password"
+          minlength="8"
+          required
+        >
+
+
+        <label for="confirmPassword">
+          Confirm password
+        </label>
+
+        <input
+          id="confirmPassword"
+          type="password"
+          placeholder="Enter password again"
+          autocomplete="new-password"
+          required
+        >
+
+
+        <button
+          id="signupButton"
+          type="submit"
+        >
+          Create account
+        </button>
+
+      </form>
+
+
+      <div
+        id="message"
+        class="message"
+      ></div>
+
+
+      <p class="switch">
+        Already have an account?
+
+        <a href="login.html">
+          Login
+        </a>
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <script src="auth.js"></script>
+
+</body>
+
+</html>
